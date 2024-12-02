@@ -12,8 +12,32 @@ Authors: <a href="https://smhongok.github.io/">Seongmin Hong</a><sup>1</sup>, <a
 <sup>2</sup>Dept. of Mathematics, University of California, Los Angeles   
 </center>
 
+Code of a manuscript 'Gradient-free Decoder Inversion in Latent Diffusion Models'
 
+### Environment
+We used conda to run the code. We recommend running the code with the same versions of our libraries; please check `environment.yml`.
 
+### Methods
+Our main contributions (i.e., decoder inversion algorithms) are in `src/stable_diffusion/inverse_stable_diffusion.py`.
+
+We provide two codes of experiment: 
+
+Exp. A: Decoder inversion in SD2.1 (Figure 3)
+Exp. B: Tree-rings watermarks classification (Table 2).
+
+### Exp. A: Decoder inversion in SD2.1 (Figure 3)
+To reproduce the results of Figure 3, please run
+```
+bash scripts/run_reconstruction.sh
+```
+
+### Exp. B: Tree-rings watermarks classification (Table 2).
+To reproduce the results of Table 2, please run
+```
+bash scripts/run_detection.sh
+```
+
+This code is heavily based on https://github.com/YuxinWenRick/tree-ring-watermark and https://github.com/smhongok/inv-dpm.
 
 <a name="bibtex">
 
@@ -29,4 +53,3 @@ Authors: <a href="https://smhongok.github.io/">Seongmin Hong</a><sup>1</sup>, <a
       url={https://arxiv.org/abs/2409.18442}, 
 }
 </pre>
-
