@@ -1,10 +1,8 @@
 # [NeurIPS 2024] Gradient-free Decoder Inversion in Latent Diffusion Models by Hong et al.
 Official Repo of "Gradient-free Decoder Inversion in Latent Diffusion Models" by Hong et al.
 
-Code will be released soon.
-
 <center>
-[<a href="http://arxiv.org/abs/2409.18442">arXiv</a>] [<a href="https://smhongok.github.io/dec-inv.html">Project</a>] [<a href="https://github.com/smhongok/dec-inv">github</a>] [<a href="#bibtex">bibTeX</a>]
+[<a href="http://arxiv.org/abs/2409.18442">arXiv</a>] [<a href="https://smhongok.github.io/dec-inv.html">Project</a>] [<a href="https://recorder-v3.slideslive.com/#/share?share=94209&s=10070c25-7055-403c-bd99-5bfc52ab749d">video</a>] [<a href="#bibtex">bibTeX</a>]
 
 Authors: <a href="https://smhongok.github.io/">Seongmin Hong</a><sup>1</sup>, <a href="https://www.linkedin.com/in/suhyoonjeon">Suh Yoon Jeon</a><sup>1</sup>, <a href="https://www.linkedin.com/in/khlee0192">Kyeonghyun Lee</a><sup>1</sup>, <a href="https://ernestryu.com/">Ernest K. Ryu</a><sup>2</sup>, <a href="https://icl.snu.ac.kr/pi">Se Young Chun</a><sup>1,3</sup>
 
@@ -23,6 +21,7 @@ Our main contributions (i.e., decoder inversion algorithms) are in `src/stable_d
 We provide two codes of experiment: 
 
 Exp. A: Decoder inversion in SD2.1 (Figure 3)
+
 Exp. B: Tree-rings watermarks classification (Table 2).
 
 ### Exp. A: Decoder inversion in SD2.1 (Figure 3)
